@@ -14,7 +14,7 @@ Here I am planning to put all my fastfetch configs. At the moment I am using the
 
 ---
 
-#Usage
+# Usage
 
 1. Backup and rename your existing config if you have one
 2. ``git clone https://github.com/flo-exe/fastfetch/<config-name> fastfetch``
