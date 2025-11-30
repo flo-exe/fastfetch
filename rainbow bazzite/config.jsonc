@@ -1,0 +1,140 @@
+
+// fastfetch theme by flo
+// https://github.com/flo-exe
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  // logo
+
+   "logo": {
+        "source": "$HOME/.config/fastfetch/bazzite.txt",
+        "type": "auto",
+        "color": {
+          "1": "#FFFFFF"
+          },
+        "padding": {
+          "top": 2,
+          "left": 2,
+          },
+    },
+
+  // sys info
+
+  "display": {
+    "separator": "  "
+  },
+  "modules": [
+    "break",
+    "break",
+    "break",
+    "break",
+    {
+      "type": "cpu",
+      "outputColor": "",
+      "key": "   CPU:",
+      "keyColor": "#FF0000"
+    },
+    {
+      "type": "gpu",
+      "outputColor": "",
+      "key": "   GPU:",
+      "keyColor": "#FF4000"
+    },
+    {
+      "type": "memory",
+      "outputColor": "",
+      "key": "   MEMORY:",
+      "keyColor": "#FF8000"
+    },
+    {
+      "type": "display",
+      "outputColor": "",
+      "key": "  󰍹 DISPLAY:",
+      "keyColor": "#FFBF00",
+    },
+    "break",
+    {
+      "type": "os",
+      "outputColor": "",
+      "key": "   OS:",
+      "keyColor": "#FFFF00"
+    },
+    {
+      "type": "kernel",
+      "outputColor": "",
+      "key": "   KERNEL:",
+      "keyColor": "#BFFF00"
+    },
+    {
+      "type": "shell",
+      "outputColor": "",
+      "key": "   SHELL:",
+      "keyColor": "#80FF00"
+    },
+    {
+      "type": "terminal",
+      "outputColor": "",
+      "key": "   TERMINAL:",
+      "keyColor": "#40FF00"
+    },
+    {
+      "type": "wm",
+      "outputColor": "",
+      "key": "   WM:",
+      "keyColor": "#00FF00"
+    },
+    {
+      "type": "de",
+      "outputColor": "",
+      "key": "   DE:",
+      "keyColor": "#00FF40"
+    },
+    "break",
+    {
+      "type": "theme",
+      "outputColor": "",
+      "key": "   THEME:",
+      "keyColor": "#00FF80"
+    },
+    {
+      "type": "icons",
+      "outputColor": "",
+      "key": "   ICONS:",
+      "keyColor": "#00FFFF"
+    },
+    {
+      "type": "wmtheme",
+      "outputColor": "",
+      "key": "   WM THEME:",
+      "keyColor": "#0040FF"
+    },
+    {
+      "type": "font",
+      "outputColor": "",
+      "key": "   FONT:",
+      "keyColor": "#0000FF"
+    },
+    {
+      "type": "terminalfont",
+      "outputColor": "",
+      "key": "   TERMINAL FONT:",
+      "keyColor": "#8000FF"
+    },
+    {
+      "type": "cursor",
+      "outputColor": "",
+      "key": "   CURSOR:",
+      "keyColor": "#9d59d2"
+    },
+    "break",
+
+    // colours
+
+        {
+            "type": "colors",
+            "key": "  ",
+            "symbol": "circle"
+        },
+  ]
+}
