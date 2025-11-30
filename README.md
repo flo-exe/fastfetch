@@ -2,7 +2,7 @@
 
 Here I am planning to put all my fastfetch configs. At the moment I am using the following for my current distro:
 
-![preview](images/rainbowbazzite.png)
+![preview](images/rainbow-bazzite.png)
 
 ---
 
